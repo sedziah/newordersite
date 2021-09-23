@@ -1,2 +1,2 @@
 web: manage.py makemigrations && manage.py migrate
-web: gunicorn ordersite.wsgi:app
+web: gunicorn ordersite.wsgi
