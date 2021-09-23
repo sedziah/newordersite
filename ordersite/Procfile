@@ -1,1 +1,1 @@
-web: gunicorn ordersite.wsgi
+web: gunicorn ordersite.config.settings.wsgi
