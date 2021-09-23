@@ -1,0 +1,6 @@
+Hello {{first_name|safe}}
+Here is a copy of your order:
+{{review|safe}}
+
+
+Thank you!
