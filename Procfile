@@ -1,3 +1,3 @@
 web: gunicorn ordersite.wsgi
 
-celery -A core worker -l info --pool=solo
+celery -A ordersite worker -l info --pool=solo
