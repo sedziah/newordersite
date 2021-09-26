@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'vd3))wv@vdh+3y63ww@c1&iq#-@3e6_zvd5bhrs8*)5#3sf&mi'
 
 # Celery Configuration Options
-#CELERY_BROKER_URL = "amqps://yiaqwshd:jz1W1rG-ByrBAfE8gqW9OUYsShmB4087@bonobo.rmq.cloudamqp.com/yiaqwshd"
+CELERY_BROKER_URL = "amqps://yiaqwshd:jz1W1rG-ByrBAfE8gqW9OUYsShmB4087@bonobo.rmq.cloudamqp.com/yiaqwshd"
 CELERY_TIMEZONE = "Australia/Tasmania"
 #CELERY_TASK_TRACK_STARTED = True
 CELERY_ACCEPT_CONTENT = ['json']
