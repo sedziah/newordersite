@@ -15,7 +15,7 @@ class NewOrderView(FormView):
  
     def form_valid(self, form):
         form.save()
-        form.send_email()
-        form.send_sms()
+        #form.send_email()
+        #form.send_sms()
         msg = "Thanks for your order!"
         return HttpResponse(msg)

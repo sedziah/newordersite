@@ -150,5 +150,3 @@ DEFAULT_FROM_EMAIL = 'info.telqs@gmail.com'
 
 
 django_heroku.settings(locals())
-
-#DJANGO_SETTINGS_MODULE='ordersite.settings' celery -A ordersite worker -l info --pool=solo
