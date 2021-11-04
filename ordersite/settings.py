@@ -50,7 +50,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'orderform',
-    'django_heroku',
 ]
 
 MIDDLEWARE = [
