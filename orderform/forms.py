@@ -10,9 +10,9 @@ import requests
 
 class OrderForm(ModelForm):
 
-    def send_email(self):
-        send_order_email_task.delay(
-            self.cleaned_data['first_name'], self.cleaned_data['email'], self.cleaned_data['purchase_item'])
+    #def send_email(self):
+    #    send_order_email_task.delay(
+    #        self.cleaned_data['first_name'], self.cleaned_data['email'], self.cleaned_data['purchase_item'])
     
     def get_phone(self):
         return self.cleaned_data['primary_phone_number']

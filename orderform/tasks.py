@@ -8,10 +8,10 @@ from .util import send_order_sms
 
 logger = get_task_logger(__name__)
 
-@task(name="send_order_email_task")
-def send_order_email_task(first_name, email, purchase_item):
-    logger.info("Sent order email")
-    return send_order_email(first_name, email, purchase_item)
+#@task(name="send_order_email_task")
+#def send_order_email_task(first_name, email, purchase_item):
+#    logger.info("Sent order email")
+#    return send_order_email(first_name, email, purchase_item)
 
 
 
