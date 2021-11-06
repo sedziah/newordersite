@@ -13,11 +13,14 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 #import django
 #django.setup()
 
+import djcelery
+djcelery.setup_loader()
+
 
 from pathlib import Path
 import os
 import django_heroku
-#import dj_database_url
+import dj_database_url
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -54,6 +57,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'orderform',
+    'django_celery',
 ]
 
 MIDDLEWARE = [
