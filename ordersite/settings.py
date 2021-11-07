@@ -10,8 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-#import django
-#django.setup()
+import django
+django.setup()
 
 import djcelery
 djcelery.setup_loader()
