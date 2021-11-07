@@ -15,7 +15,7 @@ from django.core.wsgi import get_wsgi_application
 
 import ordersite
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ordersite.settings')
-#os.environ['DJANGO_SETTINGS_MODULE'] = 'ordersite.settings'
+#os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ordersite.settings')
+os.environ['DJANGO_SETTINGS_MODULE'] = 'ordersite.settings'
 
 application = get_wsgi_application()
