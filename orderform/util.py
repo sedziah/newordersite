@@ -7,8 +7,6 @@ from requests.models import Response
 from .forms import *
 
 
-
-
 def send_order_sms(phoneNumber):
 
 	PARAMS = {

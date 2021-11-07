@@ -13,8 +13,6 @@ logger = get_task_logger(__name__)
 #    logger.info("Sent order email")
 #    return send_order_email(first_name, email, purchase_item)
 
-
-
 @task(name="send_order_sms_task")
 def send_order_sms_task(phoneNumber):
     logger.info("Sent order sms")
