@@ -57,7 +57,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'orderform',
-    #'django_celery',
+    'django_celery',
 ]
 
 MIDDLEWARE = [
