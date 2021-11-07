@@ -34,12 +34,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'vd3))wv@vdh+3y63ww@c1&iq#-@3e6_zvd5bhrs8*)5#3sf&mi'
 
 # Celery Configuration Options
-CELERY_BROKER_URL = "amqps://gshiggdg:mUmIvHEFXFHVODd1FkJZq7EwZ_Zfkqvs@baboon.rmq.cloudamqp.com/gshiggdg"
-CELERY_TIMEZONE = "Australia/Tasmania"
-#CELERY_TASK_TRACK_STARTED = True
-CELERY_ACCEPT_CONTENT = ['json']
-CELERY_TASK_SERIALIZER = 'json'
-CELERY_RESULT_SERIALIZER = 'json'
+#CELERY_BROKER_URL = "amqps://gshiggdg:mUmIvHEFXFHVODd1FkJZq7EwZ_Zfkqvs@baboon.rmq.cloudamqp.com/gshiggdg"
+#CELERY_TIMEZONE = "Australia/Tasmania"
+#CELERY_TASK_TRACK_STARTED = True !!
+#CELERY_ACCEPT_CONTENT = ['json']
+#CELERY_TASK_SERIALIZER = 'json'
+#CELERY_RESULT_SERIALIZER = 'json'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
