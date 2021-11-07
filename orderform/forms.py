@@ -4,7 +4,7 @@ from django import forms
 from django.forms import fields
 from django.forms.models import ModelForm
 from .models import NewOrders
-from .tasks import *
+from ordersite.celery import *
 import requests
 
 
